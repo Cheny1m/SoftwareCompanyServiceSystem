@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65d901f6-48b7-4c25-9a40-877b3496e8f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/software2 (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/LogLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/NewLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/base/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/base/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/cache/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/config/ElasticSearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/config/MVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/config/StartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/AliyunConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/DBConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/GlobalCons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/IgnoredUrlsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/LogConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/RequestConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/SecurityConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/CustomerServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/ESController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/EncyptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/EngineerCotroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/EngineerLeaderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/EngineerManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/FAQController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/FeedBackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/JwtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/PrivController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/PrivGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/VersionHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/controller/WorkorderManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/FaqMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/Front_dic_itemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/MetaoperationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/PrigroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/PrigrouprelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/RemarksMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/RoleprivMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/TaskestimateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/TeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/UserTeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/UserformMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/VersionhistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dao/WorkordersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/datamapper/LogErrorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/datamapper/LogSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/ChapchaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/CompanyListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/ExternalUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/LogErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/LogSmallDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/PrivDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/PrivGradationalDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/PrivGroupWithPrivDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/PrivGroupWithPrivsGradationalDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/RegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/RolePrivDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/RoleWithPrivgroupGradationalDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/RoleWithprivsgroupDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/entity/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/exception/CommonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/exception/CommonExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/filter/CustomLogoutFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/filter/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/filter/MyFilterSecurityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/filter/MyUsernamePasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/filter/WebSecurityCorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/CustomLogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/CustomLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/EntryPointUnauthorizedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/LoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/handler/RestAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/manager/MyAccessDecisionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/manager/MySecurityMetadataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/CompanyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/DepartmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Faq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/FaqExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Front_dic_item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Front_dic_itemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/LogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/LogWithBLOBs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Metaoperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/MetaoperationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Prigroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/PrigroupExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/PrigrouprelationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/PrigrouprelationKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Remarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/RemarksExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Rolepriv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/RoleprivExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/TaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Taskestimate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/TaskestimateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/TeamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/UserTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/UserTeamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/UserWithBLOBs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Userform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/UserformExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Versionhistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/VersionhistoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/Workorders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/model/WorkordersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/AddMemberpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/AuthUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/EngInfoPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/FaqListPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/MyGrantedAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/NavigationBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/NavigationBarChilren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/NavigationBarHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/PrivGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningPriv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningPrivFourLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningPrivGroupWithPriv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningPrivGroupWithPrivsFourLever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningRolePriv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningRoleWithprivgroupFourLever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningRoleWithprivsgroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/ReturningUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/RoleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/Scopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/TokenPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/UserInTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/UserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/VersionListPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/WorkOrderPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/pojo/engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/query/LogQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/repository/LogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/CustomersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/ElasticSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/EngineerManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/EngineerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/FaqService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/FeedBackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/MetaOperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/PriGroupRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/PrigroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/RolePrivService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/UserTeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/VersionHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/WorkOrderManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/WorkOrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/CustomersServiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/ElasticSearchServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/EngineerManagerServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/EngineerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/FaqServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/FeedBackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/JwtServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/MetaOperationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/PriGroupRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/PrigroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/RolePrivServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/UserTeamServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/VersionHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/WorkOrderManagerServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/service/impl/WorkOrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/AESUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/AddressUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/EncyptUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/JasyptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/MyCaptchaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/PageUtilLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/PhoneFormatCheckUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/QueryHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/ReexParamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/RequestHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/ResUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/ThrowableUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/TimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/TokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/UserOfNumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/utils/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/validation/Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/validation/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/validation/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/validation/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/vo/NavigationBarChilrenVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/vo/NavigationBarHeadVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/vo/NavigationBarVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/vo/StatisticsFormKefuMg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/AuthenticateService.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/CompanyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/FaqMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/Front_dic_itemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/MetaoperationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/PrigroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/PrigrouprelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/RemarksMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/RoleprivMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/TaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/TaskestimateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/TeamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/UserTeamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/UserformMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/VersionhistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/WorkordersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/src/main/resources/mappers/roleMapper.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/LogLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="27">
+                <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="software2 (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software2 (3)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software2 (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software2 (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software2 (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software2 (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software2 (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software2 (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software2 (3)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software2 (3)" type="462c0819:PsiDirectoryNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65d901f6-48b7-4c25-9a40-877b3496e8f5" name="Default Changelist" comment="" />
+      <created>1631111559305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631111559305</updated>
+      <workItem from="1631111560515" duration="2710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2710000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/src/main/java/cn/edu/sicnu/cs/anotations/LogLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
